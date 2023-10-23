@@ -5,7 +5,7 @@ const Sidebar = (props) => {
     const [drop, setDrop] = useState(true)
 
     return (
-        <div className={`flex flex-col bg-gray-700 h-[100vh] ${props.getBar ? 'w-24' : 'w-60'}`}>
+        <div className={`flex flex-col bg-gray-700 h-full ${props.getBar ? 'w-24' : 'w-60'}`}>
             <div className=' my-5 flex justify-center cursor-pointer'>
                 <div className='bg-gray-300 p-1 me-2 rounded-full'>
                     <FaDropbox className='text-xl' />
